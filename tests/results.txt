@@ -1,0 +1,92 @@
+============================= test session starts ==============================
+platform linux -- Python 3.12.3, pytest-8.2.2, pluggy-1.5.0
+rootdir: /home/madhatter/Python Scripts/Morse Code
+plugins: typeguard-4.2.1, xdist-3.5.0, mock-3.14.0, rerunfailures-14.0, metadata-3.1.1, html-4.1.1, anyio-4.4.0
+pygame 2.5.2 (SDL 2.30.3, Python 3.12.3)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+collected 5 items
+
+test_main.py .DEBUG: S -> ...
+DEBUG: O -> ---
+DEBUG: S -> ...
+DEBUG: Converted 'SOS' to '... --- ...'
+DEBUG: H -> ....
+DEBUG: E -> .
+DEBUG: L -> .-..
+DEBUG: L -> .-..
+DEBUG: O -> ---
+DEBUG: Converted 'HELLO' to '.... . .-.. .-.. ---'
+DEBUG: 1 -> .----
+DEBUG:   -> /
+DEBUG: 2 -> ..---
+DEBUG:   -> /
+DEBUG: 3 -> ...--
+DEBUG: Converted '1 2 3' to '.---- / ..--- / ...--'
+DEBUG: A -> .-
+DEBUG:   -> /
+DEBUG: B -> -...
+DEBUG:   -> /
+DEBUG: C -> -.-.
+DEBUG: Converted 'A B C' to '.- / -... / -.-.'
+DEBUG: H -> ....
+DEBUG: E -> .
+DEBUG: L -> .-..
+DEBUG: L -> .-..
+DEBUG: O -> ---
+DEBUG: , -> --..--
+DEBUG:   -> /
+DEBUG: W -> .--
+DEBUG: O -> ---
+DEBUG: R -> .-.
+DEBUG: L -> .-..
+DEBUG: D -> -..
+DEBUG: ! -> -.-.--
+DEBUG: Converted 'Hello, World!' to '.... . .-.. .-.. --- --..-- / .-- --- .-. .-.. -.. -.-.--'
+DEBUG: I -> ..
+DEBUG: N -> -.
+DEBUG: V -> ...-
+DEBUG: A -> .-
+DEBUG: L -> .-..
+DEBUG: I -> ..
+DEBUG: D -> -..
+Warning: Character '#' is not supported in Morse code. Skipping.
+DEBUG: C -> -.-.
+DEBUG: H -> ....
+DEBUG: A -> .-
+DEBUG: R -> .-.
+DEBUG: Converted 'Invalid#Char' to '.. -. ...- .- .-.. .. -.. -.-. .... .- .-.'
+.DEBUG: Converted '' to ''
+.DEBUG: 1 -> .----
+DEBUG: 2 -> ..---
+DEBUG: 3 -> ...--
+DEBUG: Converted '123' to '.---- ..--- ...--'
+DEBUG: 4 -> ....-
+DEBUG: 5 -> .....
+DEBUG: 6 -> -....
+DEBUG:   -> /
+DEBUG: 7 -> --...
+DEBUG: 8 -> ---..
+DEBUG: 9 -> ----.
+DEBUG: 0 -> -----
+DEBUG: Converted '456 7890' to '....- ..... -.... / --... ---.. ----. -----'
+.DEBUG: H -> ....
+DEBUG: E -> .
+DEBUG: L -> .-..
+DEBUG: L -> .-..
+DEBUG: O -> ---
+DEBUG:   -> /
+DEBUG: W -> .--
+DEBUG: O -> ---
+DEBUG: R -> .-.
+DEBUG: L -> .-..
+DEBUG: D -> -..
+DEBUG: Converted 'HeLLo WoRLD' to '.... . .-.. .-.. --- / .-- --- .-. .-.. -..'
+.
+
+=============================== warnings summary ===============================
+../../../../../usr/lib/python3.12/site-packages/pygame/pkgdata.py:25
+  /usr/lib/python3.12/site-packages/pygame/pkgdata.py:25: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+    from pkg_resources import resource_stream, resource_exists
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+========================= 5 passed, 1 warning in 0.10s =========================
